@@ -1,0 +1,155 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+/* TITULOS */
+
+.tituloPrincipal{
+    font-size: 30px;
+    color: gray;
+    margin-left: 30px;
+}
+
+.tituloSecundario{
+    font-size: 24px;
+    color: #6610f2;
+    text-align: center;
+}
+
+/* DIV PRINCIPAL*/
+.principal{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+/* DIV PRINCIPAL DOS PRODUTOS */
+.produtos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    width: 90%;
+    align-self: center;
+    margin: auto;
+}
+
+.produtos div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* DIVS FILHAS DO PRODUTO */
+
+.configuracao {
+    padding-top: 10px;
+    background-color: var(--verde);
+    flex: 1;
+    text-align: center;
+    font-size: 1.5em;
+    width: 25%;
+    height: 100%;
+    margin: 10px;
+}
+
+.parteImage{
+    height: 70%;
+    width: 100%;
+    display: flex;
+}
+
+.img {
+    height: 100%;
+    width: 70%;
+    background-image: url("../imagem/p1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    /* border-radius: 100px; */
+}
+
+.posicao{
+    width: 3%;
+    height: 7%;
+    position: absolute;
+    margin-top: 0;
+    align-self: flex-end;
+    background-image: url("../imagem/list.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.posicaoProduto{
+    font-size: 20px;
+    color: black;
+    position: relative;
+    z-index: 1;
+    margin: auto;
+}
+
+/* CAIXA DE TEXTO DOS PRODUTOS */
+
+.CaixaTextos{
+    height: 50%;
+    width: 75%;
+}
+
+.CaixaTextos p{
+    margin:0;
+    align-self: flex-start;
+
+}
+.nome{
+    font-size: 22px;
+}
+
+.precoAntigo{
+    font-size: 18px;
+
+}
+
+.precoAtual{
+}
+
+.prestacao{
+    font-size: 20px;
+}
+
+/* DIV BOTAO */
+
+.botao{
+    width: 7%;
+    height: 20%;
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#left{
+    background-image: url("../imagem/left.png");
+}
+#right{
+    background-image: url("../imagem/right.png");
+}
