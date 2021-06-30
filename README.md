@@ -1,2 +1,2 @@
-# Desafio LINX
-Brenda Moura - Futura Engenheira de Software
+# Desafio de E-COMMERCE
+Brenda Moura
